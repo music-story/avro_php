@@ -1,0 +1,17 @@
+{
+  "name": "musicstory/avro_php",
+  "description": "Library Apache Avro for Php",
+  "type": "library",
+
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+
+  "autoload":{
+    "psr-4": {
+      "Avro\\": "lib/",
+      "Avro\\Test\\": "test/"
+    }
+  }
+}
+
