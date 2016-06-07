@@ -43,6 +43,9 @@ class AvroException extends Exception {}
  * @package Avro
  *
  */
+
+namespace Avro\Avro;
+
 class Avro
 {
   /**
